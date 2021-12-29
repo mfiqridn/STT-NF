@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    
+</head>
+<body>
+    <fieldset>
+        <legend>Image Picker</legend>
+        <select name="buahs" id="buahs" onchange="pilihGambar()">
+            <option value="0">Pilih Gambar</option>
+            <option value="a">Ayam</option>
+            <option value="b">Gorilla</option>
+            <option value="c">Kucing</option>
+            <option value="d">Panda</option>
+            <option value="e">Singa</option>
+        </select>
+    </fieldset>
+        
+    <div>
+        <img src="#" id="gambar" alt="" width="300px" >
+    </div>
+    
+    <script>
+        const gb = document.getElementById("gambar")
+
+        function pilihGambar() {
+          if (buahs.value == "a") {
+            gb.src = "image/Ayam.jpg"
+            alert("Ini gambar hewan Ayam")
+          }
+          else  if(buahs.value == "b") {
+            gb.src = "image/Gorilla.jpg"
+            alert("Ini gambar hewan Gorilla")
+          }
+          else  if(buahs.value == "c") {
+            gb.src = "image/Kucing.jpg"
+            alert("Ini gambar hewan Kucing")
+          }
+          else  if(buahs.value == "d") {
+            gb.src = "image/Panda.jpg"
+            alert("Ini gambar hewan Panda")
+          }
+          else  if(buahs.value == "e") {
+            gb.src = "image/Singa.jpg"
+            alert("Ini gambar hewan Singa")
+          }
+          
+        }
+    </script>
+    
+</body>
+</html>
