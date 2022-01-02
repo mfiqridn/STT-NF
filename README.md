@@ -1,2 +1,2 @@
 # STT-NF
-Repository untuk mengumpulkan tugas PW
+Repository untuk mengumpulkan tugas
