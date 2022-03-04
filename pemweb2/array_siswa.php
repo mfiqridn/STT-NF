@@ -19,8 +19,6 @@
  </head>
 
  <body>
-     Web Programming 02
-     Praktikum 01: PHP Dasar
      <h3>Daftar Nilai Siswa</h3>
      <table class="table table-dark" width="100%">
          <thead>
